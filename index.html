@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap satış mağzası </title>
+  
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> 
+
+
+
+
+</head>
+<body>
+<header class="header">
+    <div class="header-1">
+
+        <a href="" class="logo"><i class="fas fa-book"> bookly</i></a>
+
+        <form action="" class="from-box">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+
+        <div class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </div>
+
+    </div>
+<!--------- header section ends ------------>
+
+<!--------- bottom navbar  ------------>
+
+<div class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-app-store"></a>
+</div>
+
+    <!-------- bottom navbar ends ----------->
+
+     <!-------- login form start ----------->
+
+
+     
+ <div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>email</span>
+        <input type="email" name="" class="box"  placeholder="enter your email">
+        <span>password</span>
+        <input type="password" name="" class="box"  placeholder="enter your password">
+
+        <div class="check-box">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forgot password ? <a href="">click here</a></p>
+        <p>don't have an account ? <a href="">create one</a></p>
+    </form>
+</div>
+
+ <!-------- login form ends ----------->
+
+
+
+  <!-------- home section start -----------> 
+
+    
+
+
+
+  <section class="kitap" id="kitap">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>%55 varan teklifler</h3>
+            <p>Okumak benim tutkum diyorsanız, aradığınız her kitabı  mağazalarımızda bulabilirsiniz. 
+                Farklı türlerde yüzbinlerce kitapla birlikte en çok satanlar listesinde yer alanlar ve yeni çıkan kitapların hepsi burada. 
+                Siz sadece ne okumak istediğinize karar verin!</p>
+            <a href="" class="btn">şimdi satın al</a>
+        </div>
+
+        <div class="swiper kitap-listesi" >
+
+            <div class="swiper-wrapper">
+                <a href="" class="swiper-slide"><img src="./resim/book1.png" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./resim/book2.png" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./resim/book3.png" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./resim/book4.png" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./resim/book5.png" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./resim/book6.png" alt=""></a>
+            </div>
+
+            <img src="./resim/stand.png" class="stand" alt="">
+            
+        </div>
+    </div>
+
+  </section>
+
+  <!--------swiper cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+  <!---ikon section---->
+  <section class="ikons-container">
+    <div class="ikons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>kolay ödeme</h3>
+            <p>kolay  ödeme 100 ₺</p>
+        </div>
+
+    </div>
+    <div class="ikons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>güvenli ödeme </h3>
+            <p>güvenli ödeme 100₺</p>
+        </div>
+    </div>
+    <div class="ikons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>7/24 destek </h3>
+            <p>her an iletişime geçebilirsiniz</p>
+        </div>
+    </div>
+
+  </section>
+
+
+  <!-------featured section start ------>
+
+  <section class="featured" id="featured">
+    <div class="heading"><span>ÖNE ÇIKAN KİTAPLAR</span></div>
+
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar</h3>
+                    <div class="price">19,50₺ <span>30,00₺</span></div>
+                    <a href="" class="btn">sepete ekle </a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book8.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar</h3>
+                    <div class="price">32,45₺<span>35,00₺</span></div>
+                    <a href="" class="btn">sepete ekle </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book9.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar </h3>
+                    <div class="price">179,45₺<span>180,00₺</span></div>
+                    <a href="" class="btn">sepete ekle </a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book10.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar</h3>
+                    <div class="price">105,25₺<span>125,95₺</span></div>
+                    <a href="" class="btn">sepete ekle </a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book11.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar</h3>
+                    <div class="price">40,00₺<span>40,10₺</span></div>
+                    <a href="" class="btn">sepete ekle</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book12.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar</h3>
+                    <div class="price">25,00₺ <span>45.90₺</span></div>
+                    <a href="" class="btn">sepete ekle </a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book13.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar </h3>
+                    <div class="price">180,50₺ <span>192.50₺</span></div>
+                    <a href="" class="btn">sepete ekle </a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="ikons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+
+                </div>
+
+                <div class="resim">
+                    <img src="resim/book14.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>öne çıkanlar</h3>
+                    <div class="price">125,85₺ <span>130,00 ₺</span></div>
+                    <a href="" class="btn">sepete ekle </a>
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!--------new letter section start------>
+ 
+  <section class="newsletter">
+    <form action="">
+        <h3> en son güncelleme için abone olun</h3>
+        <input type="email" name="" placeholder="mail adresini giriniz" class="box">
+        <input type="submit" value="abone ol" class="btn">
+    </form>
+
+  </section>
+
+
+  <!---------arrivals section------------>
+
+  <section class="arrivals" id="arrivals">
+    <div class="heading"> <span>YENİ GELENLER </span></div>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book15.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">115,45 ₺<span>150 ₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book16.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">57,75 ₺ <span>75₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book17.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">76 ₺<span>76,90₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book18.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">125,65₺ <span>130₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book19.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">67,50 ₺ <span>67,99 ₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book20.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price"> 37,35 ₺ <span>59,45₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+
+            
+        </div>
+    </div>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book21.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">49,00₺<span>69.90₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book22.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER </h3>
+                    <div class="price">115,45 TL <span>150</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book23.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">35,80₺ <span>46.80₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book24.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">105,25₺ <span>110,00₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book25.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">108,65₺<span>110.65₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+            
+            <a href="" class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book26.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>YENİ GELENLER</h3>
+                    <div class="price">85,00₺ <span>90,00₺</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+  </section>
+
+  <!-----review section----->
+  <section class="reviews" id="reviews">
+    <h1 class="heading"><span>YAZAR YORUMLARI</span></h1>
+   <div class="swiper reviews-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+         <img src="resim/sabahttinali.png" alt="">
+         <h3>Sabahattin Ali</h3>
+         <p>"Ne diye benim ruhumun ahengini bozdun?"</p>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+ 
+         </div>
+ 
+        </div>
+        <div class="swiper-slide box">
+         <img src="resim/george-orwell.png" alt="">
+         <h3>George Orwell</h3>
+         <p>Kitapları seven biriyle karşılaşmak ne güzel!</p>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+ 
+         </div>
+ 
+        </div>
+        <div class="swiper-slide box">
+         <img src="resim/stefan-zweig.png" alt="">
+         <h3>Stefan Zweig</h3>
+         <p>İçte tutulan gözyaşları akıtılanlardan daha acıtıcıdır.</p>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half-alt"></i>
+ 
+         </div>
+ 
+        </div>
+        <div class="swiper-slide box">
+            <img src="resim/victor-hugo.jpeg" alt="">
+            <h3>Victor Hugo</h3>
+            <p>Hayattaki en güzel mutluluk sevildiğinden emin olmaktır. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+    
+            </div>
+    
+           </div>
+    
+ 
+     </div>
+
+   </div>
+
+  </section>
+
+  <section class="blogs" id="blogs">
+    <div class="heading"> <span> BLOG</span></div>
+
+    <div class="swiper blog-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/tutunamayanlar.jpg" alt="">
+
+                </div>
+
+                <div class="content">
+                    <h3>TUTUNAMAYANLAR</h3>
+                    <p>Ülkemizin en değerli yazarlarından biri olan Oğuz Atay’ın yazıldığı dönemde büyük tartışma konusu olmuş eseri Tutunamayanlar,
+                         1972 yılında yayımlanmıştır. Eser, bilinç-akışı tekniğiyle döneme damgasını vurarak Türk Edebiyatı’nda yeni bir çağı başlatmıştır.
+                          Pek çok eleştirmen, Tutunamayanlar’ı Türk Dili’nde yazılmış en iyi eser olarak değerlendirmektedir.</p>
+
+                    <a href="" class="btn">Devamını Oku</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/mai-ve-siyah-thumbnail.jpg" alt="">
+
+                </div>
+
+                <div class="content">
+                    <h3>MAİ VE SİYAH</h3>
+                    <p>Mai ve Siyah 4 Haziran 1896 ve 8 Nisan 1897 tarihleri arasında Servet-i Fünun dergisinde yayınlanmıştır.
+                         Kitap olarak ilk defa 1898 yılında Arap harfleri ile basılmıştır.
+                          1938 ise latin harfleri ile yeniden basılmış, basımdan önce kitap yazar tarafından sadeleştirilmiştir. 
+                          Bu sadeleştirilme sırasında kitabın üslubu korunmuş ve bazı önemli hatalar giderilmiştir.</p>
+
+                    <a href="https://zinzinzibidi.com/blog/kitap/mai_ve_siyah" class="btn">Devamını Oku</a>
+                    
+                </div>
+
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/bilinmeyen-bir-kadinin-mektubu-thumbnail.jpg" alt="">
+
+                </div>
+
+                <div class="content">
+                    <h3>BİLİNMEYEN BİR KADININ MEKTUBU</h3>
+                    <p>Öykü, roman yazarı R. olarak anılan yazarın tatilden döndükten sonra, aldığı imzasız mektubu okumasıyla başlıyor.
+                         Mektup yazarın hiç tanımadığı bir kadından gelmiştir ve "Sana, beni hiç tanımamış olan sana," diye başlar.
+                          Kadın küçükken Viyana'da yazarla aynı apartmanda yaşamış, daha sonra annesiyle birlikte Innsbruck'a taşındığı
+                           zaman bile bu adama karşı tutkusu hiç eksilmemiş ve 18 yaşına geldiği zaman tekrar Viyana'ya dönmüştür.
+                         Yazarla yeniden görüşmeye çalışan kadın üç gecelik beraberliğin ardından unutulmuş olarak hayatına devam eder.</p>
+
+                    <a href="https://zinzinzibidi.com/blog/kitap/bilinmeyen_bir_kadinin_mektubu" class="btn">Devamını Oku</a>
+                </div>
+
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/book9.png" alt="">
+
+                </div>
+
+                <div class="content">
+                    <h3>KÖRLÜK</h3>
+                    <p>Distopik eserlere ilgi duyanların elinden düşürmediği Körlük, 
+                        yayınlandığı günden bu yana adından söz ettirmeye devam ediyor. 
+                        Portekiz’li yazar José Saramago’ya 1998’de Nobel Edebiyat Ödülü’nü kazandıran eser, konusuyla olduğu kadar zekice kurgulanmış karakterleriyle de dikkat çekiyor.
+                         Dönemin liberal demokrasi anlayışına bir eleştiri mahiyetinde kaleme alınan roman,
+                          insanların gittikçe bencilleşip olaylar karşısında duyarsızlaşmasını bir körlük metaforu etrafında işliyor.</p>
+
+                    <a href="https://zinzinzibidi.com/blog/kitap/korluk" class="btn">Devamını Oku</a>
+                </div>
+
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="resim/jane-eyre-thumbnail.jpg" alt="">
+
+                </div>
+
+                <div class="content">
+                    <h3>JANE EYRE KONUSU</h3>
+                    <p>On yaşında öksüz kalan Jane Eyre, ona kötü davranan yengesinin evinde yaşamaktadır.
+                         Dayısının isteği üzerine, yengesiyle yaşayan Jane, kuzenleri tarafından da zorbalığa uğramaktadır. 
+                         Yengesi Bayan Reed en sonunda çareyi Jane’i yatılı okula yollamakta bulur.
+                        Yatılı okulda da zor zamanlar geçirmeye devam eder. Sonunda orada öğretmen olarak çalışmaya başlayan Jane kendini okulda sıkışmış hissettiğinden
+                         hayatına farklı bir yerde devam etmek ister ve verdiği bir mürebbiyelik ilanına cevap gelince, Bay Rochester’ın malikânesinde çalışmaya başlar. 
+                         Çok geçmeden oradaki hayatına alışan Jane, malikânenin gizemli efendisine âşık olur ama hayat ona beklemediği zorluklar çıkarmaya devam edecektir.</p>
+
+                    <a href="https://zinzinzibidi.com/blog/kitap/jane_eyre" class="btn">Devamını Oku</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </section>
+
+  <!--blog section ends -->
+
+
+   <!-------- footer section start  ----------->
+
+   <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href=""><i class="fas fa-map-marker-alt"></i>india</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i>USA</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i>russia</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i>france</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i>japan</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i>africa</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href=""><i class="fas fa-arrow-right"></i>home</a>
+            <a href=""><i class="fas fa-arrow-right"></i>freatured</a>
+            <a href=""><i class="fas fa-arrow-right"></i>arrivals</a>
+            <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+          
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href=""><i class="fas fa-arrow-right"></i>account info</a>
+            <a href=""><i class="fas fa-arrow-right"></i>ordered items</a>
+            <a href=""><i class="fas fa-arrow-right"></i>privacy policy</a>
+            <a href=""><i class="fas fa-arrow-right"></i>payment method</a>
+            <a href=""><i class="fas fa-arrow-right"></i>our services</a>
+        </div>
+
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href=""><i class="fas fa-phone"></i>+123-356-546</a>
+            <a href=""><i class="fas fa-phone"></i>+123-134-879</a>
+            <a href=""><i class="fas fa-envelope"></i>kashum@gmail.com</a>
+            <img src="./image/worldmap.png" alt="" class="map">
+        </div>
+    </div>
+
+    <div class="share">
+        <a href=""><i class="fas fa-facebook"></i></a>
+        <a href=""><i class="fas fa-twitter"></i></a>
+        <a href=""><i class="fas fa-instagram"></i></a>
+        <a href=""><i class="fas fa-linkedin"></i></a>
+        <a href=""><i class="fas fa-square-pinterest"></i></a>
+    </div>
+
+   
+
+</section>
+
+
+
+
+
+<!-------- footer section ends  ----------->
+
+
+
+
+
+
+</header>
+    <script src="script.js"></script>
+</body>
+</html>
